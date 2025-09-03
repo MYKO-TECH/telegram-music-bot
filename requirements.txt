@@ -1,5 +1,3 @@
-This file lists the Python packages needed to run the bot.
-Render will use this file to install the correct dependencies.
 python-telegram-bot
 youtube-search-python
 httpx==0.27.0
