@@ -12,7 +12,7 @@ from youtubesearchpython import VideosSearch
 # --- Configuration ---
 # We will get the token from an environment variable on Render.
 # This is much more secure than writing the token directly in the code.
-TELEGRAM_BOT_TOKEN = os.environ.get('8349723451:AAG7t25qLjMVSc8jCiSUgKYnozkRW3oSOY8')
+TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 
 # Enable logging to see errors and bot activity in your console.
 logging.basicConfig(
@@ -113,3 +113,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
